@@ -1,0 +1,26 @@
+
+.container__menu-bar{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-bar > ul{
+  display: flex;
+}
+
+.menu-bar > ul >li{
+ margin-right:20px ;
+ border-bottom: 2px solid transparent;
+ transition: .8s;
+
+}
+.menu-bar > ul >li:hover{
+  border-bottom: 2px solid gray;
+}
+.container__menu-bar > img {
+  margin-left: 10px;
+  border-radius: 50%;
+  width: 100px;
+  height: 60px;
+}
