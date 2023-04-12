@@ -1,0 +1,37 @@
+.container__content {
+  border: 1px solid #fff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.content__cover > img {
+  border: 3px solid rgb(207, 194, 194);
+  width: 300px;
+  min-width: 300px;
+  height: 300px;
+  border-radius: 5px;
+
+}
+.content__title{
+  border-bottom: 2px solid gray;
+
+}
+.content__description > p{
+  color: gray;
+  margin: 20px;
+}
+.container__content > a{
+  height: 30px;
+  width: 90px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  background-color: gray;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
